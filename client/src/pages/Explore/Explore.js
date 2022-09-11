@@ -17,6 +17,10 @@ import "./Explore.css";
 class Explore extends Component {
   state = {
     genres: "all",
+    id: "0",
+    name: "Icelandic Arpegios",
+    audio: "https://bafybeifbgoo4xupoud3nx573hw5d7lg4ad5znv2dn54z5ni57e76pkoo6u.ipfs.nftstorage.link/"
+
   };
   handleGenreChange = () => {
     //if genre is all, then set state to hiphop otherwise set state to all

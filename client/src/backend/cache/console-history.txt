@@ -1,0 +1,16 @@
+.exit
+let name = await contract.name()
+const URI = await contract.name()
+const URI = await contract.baseURI()
+contract
+const contract = await ethers.getContractAt("MusicNFTMarketplace", "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266")
+.exit
+npx hardhat test
+const name = await contract1.name()
+const URI1 = await contract1.baseURI()
+const URI = await contract1.baseURI()
+const URI = await contract.baseURI()
+contract1
+const contract1 = await ethers.getContractAt("MusicNFTMarketplace", "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266")
+const contract = await ethers.getContractAt("MusicNFTMarketplace", "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266")
+const contract = await ethers.contractAt("MusicNFTMarketplace", "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266")
