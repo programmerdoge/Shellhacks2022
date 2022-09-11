@@ -11,34 +11,59 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1rem;
     margin: 5vw 4vw;
 }
 .sale-item{
     display: flex;
-    width: 150px;
-    height: 350px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: .25rem;
+    border-radius: 15px;
+    height: 30vh;
+    width: 23vw;
+    padding: 4vh;
     flex-direction: row;
-
+}
+.sale-item_buttons{
+    width: 12vw;
+    height: 6vh;
+    margin-bottom: 2vh;
+    object-fit: cover;
 }
 .hip1{
-    background-image: url("../../assets/img/explore/audio-for-sale/all1.svg");
+    background-image: url("../../assets/img/explore/audio-for-sale/hip1.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .hip2{
-    background-image: url(../../assets/img/explore/audio-for-sale/all2.svg);
+    background-image: url("../../assets/img/explore/audio-for-sale/hip2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .hip3{
-    background-image: url(../../assets/img/explore/audio-for-sale/all3.svg);
+    background-image: url("../../assets/img/explore/audio-for-sale/hip3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .all1{
-
+    background-image: url("../../assets/img/explore/audio-for-sale/all1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .all2{
-
+    background-image: url("../../assets/img/explore/audio-for-sale/all2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .all3{
-
+    background-image: url("../../assets/img/explore/audio-for-sale/all3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
