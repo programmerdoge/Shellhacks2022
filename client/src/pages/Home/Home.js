@@ -1,13 +1,12 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import hero from "../../assets/img/hero.svg";
-import jazz from "../../assets/img/genres/jazz.svg";
-import rock from "../../assets/img/genres/rock.svg";
-import hiphop from "../../assets/img/genres/hiphop.svg";
+import hero from "../../assets/img/home/hero.svg";
+import jazz from "../../assets/img/home/genres/jazz.svg";
+import rock from "../../assets/img/home/genres/rock.svg";
+import hiphop from "../../assets/img/home/genres/hiphop.svg";
 import "./Home.css";
-import explore from "../../assets/img/explore.svg";
-import about from "../../assets/img/about.svg";
-
+import explore from "../../assets/img/home/explore.svg";
+import about from "../../assets/img/home/about.svg";
 function Home() {
   return (
     <>

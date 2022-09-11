@@ -18,36 +18,30 @@ class Header extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <header className="header">
-          <Link exact to="/">
-            <img src={logo} alt="logo" />
+      <header className="header">
+        <Link to="./">
+          <img src={logo} alt="logo" />
+        </Link>
+        <div className="header-links">
+          <Link to="./explore">
+            <img className="header-link" src={explore} alt="explore link" />
           </Link>
-          <div className="header-links">
-            <Link to="/explore">
-              <img className="header-link" src={explore} alt="explore link" />
-            </Link>
-            <Link to="/sell">
-              <img className="header-link" src={sell} alt="upload page link" />
-            </Link>
-            <Link to="/collection">
-              <img
-                className="header-link"
-                src={collection}
-                alt="collections page link"
-              />
-            </Link>
-            <Link to="/wallet">
-              <img
-                className="header-link"
-                src={wallet}
-                alt="wallet page link"
-              />
-            </Link>
-          </div>
-          <img className="search" src={search} alt="search bar" />
-        </header>
-      </BrowserRouter>
+          <Link to="./sell">
+            <img className="header-link" src={sell} alt="upload page link" />
+          </Link>
+          <Link to="./collection">
+            <img
+              className="header-link"
+              src={collection}
+              alt="collections page link"
+            />
+          </Link>
+          <Link to="./wallet">
+            <img className="header-link" src={wallet} alt="wallet page link" />
+          </Link>
+        </div>
+        <img className="search" src={search} alt="search bar" />
+      </header>
     );
   }
 }
