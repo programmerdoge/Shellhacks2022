@@ -1,4 +1,5 @@
 import { Component, React } from "react";
+import { Link } from "react-router-dom";
 import all from "../../assets/img/explore/genre-select-all.svg";
 import hiphop from "../../assets/img/explore/genre-select.svg";
 import hiphophero from "../../assets/img/explore/hiphop.svg";
@@ -19,8 +20,8 @@ class Explore extends Component {
     genres: "all",
     id: "0",
     name: "Icelandic Arpegios",
-    audio: "https://bafybeifbgoo4xupoud3nx573hw5d7lg4ad5znv2dn54z5ni57e76pkoo6u.ipfs.nftstorage.link/"
-
+    audio:
+      "https://bafybeifbgoo4xupoud3nx573hw5d7lg4ad5znv2dn54z5ni57e76pkoo6u.ipfs.nftstorage.link/",
   };
   handleGenreChange = () => {
     //if genre is all, then set state to hiphop otherwise set state to all
@@ -49,15 +50,33 @@ class Explore extends Component {
           <div className="sale-items">
             <div className="sale-item all1">
               <img src={all1} alt="eth price" />
-              <img src={buy} alt="" />
+              <Link to="./">
+                <img
+                  src={buy}
+                  alt=""
+                  onClick={() => alert("Thank you for your purchase")}
+                />
+              </Link>
             </div>
             <div className="sale-item all2">
               <img src={all2} alt="eth price" />
-              <img src={buy} alt="" />
+              <Link to="./">
+                <img
+                  src={buy}
+                  alt=""
+                  onClick={() => alert("Thank you for your purchase")}
+                />
+              </Link>
             </div>
             <div className="sale-item all3">
               <img src={all3} alt="eth price" />
-              <img src={buy} alt="" />
+              <Link to="./">
+                <img
+                  src={buy}
+                  alt=""
+                  onClick={() => alert("Thank you for your purchase")}
+                />
+              </Link>
             </div>
           </div>
           <Footer />
@@ -77,15 +96,33 @@ class Explore extends Component {
           <div className="sale-items">
             <div className="sale-item hip1">
               <img src={hip1} alt="eth price" />
-              <img src={buy} alt="" />
+              <Link to="./">
+                <img
+                  src={buy}
+                  alt=""
+                  onClick={() => alert("Thank you for your purchase")}
+                />
+              </Link>
             </div>
             <div className="sale-item hip2">
               <img src={hip2} alt="eth price" />
-              <img src={buy} alt="" />
+              <Link to="./">
+                <img
+                  src={buy}
+                  alt=""
+                  onClick={() => alert("Thank you for your purchase")}
+                />
+              </Link>
             </div>
             <div className="sale-item hip3">
               <img src={hip3} alt="eth price" />
-              <img src={buy} alt="" />
+              <Link to="./">
+                <img
+                  src={buy}
+                  alt=""
+                  onClick={() => alert("Thank you for your purchase")}
+                />
+              </Link>
             </div>
           </div>
           <Footer />
