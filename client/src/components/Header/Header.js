@@ -26,10 +26,10 @@ class Header extends React.Component {
           <Link to="./explore">
             <img className="header-link" src={explore} alt="explore link" />
           </Link>
-          <Link to="./sell">
+          <Link to="./">
             <img className="header-link" src={sell} alt="upload page link" />
           </Link>
-          <Link to="./collection">
+          <Link to="./">
             <img
               className="header-link"
               src={collection}
