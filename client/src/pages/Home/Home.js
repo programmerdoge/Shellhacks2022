@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header";
+import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import hero from "../../assets/img/home/hero.svg";
 import jazz from "../../assets/img/home/genres/jazz.svg";
@@ -13,9 +14,15 @@ function Home() {
       <Header />
       <img className="hero-section" src={hero} alt="hero section" />
       <div className="genre-container">
-        <img src={jazz} alt="jazz" />
-        <img src={rock} alt="rock" />
-        <img src={hiphop} alt="hiphop" />
+        <Link to="./explore">
+          <img className="genre-container-img" src={jazz} alt="jazz" />
+        </Link>
+        <Link to="./explore">
+          <img className="genre-container-img" src={rock} alt="rock" />
+        </Link>
+        <Link to="./explore">
+          <img className="genre-container-img" src={hiphop} alt="hiphop" />
+        </Link>
       </div>
       <div className="explore-button">
         <img

@@ -5,6 +5,9 @@
   justify-content: space-evenly;
   margin: 2vh 0 14vh 0;
 }
+.genre-container-img{
+    width: 24vw;
+}
 .hero-section{
     display: flex;
     flex-direction: column;
