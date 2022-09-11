@@ -2,8 +2,17 @@ import { Component, React } from "react";
 import all from "../../assets/img/explore/genre-select-all.svg";
 import hiphop from "../../assets/img/explore/genre-select.svg";
 import hiphophero from "../../assets/img/explore/hiphop.svg";
+import allhero from "../../assets/img/explore/all.svg";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import all1 from "../../assets/img/explore/audio-for-sale/all1eth.svg";
+import all2 from "../../assets/img/explore/audio-for-sale/all2eth.svg";
+import all3 from "../../assets/img/explore/audio-for-sale/all3eth.svg";
+import buy from "../../assets/img/explore/audio-for-sale/buy.svg";
+import hip1 from "../../assets/img/explore/audio-for-sale/hip1eth.svg";
+import hip2 from "../../assets/img/explore/audio-for-sale/hip2eth.svg";
+import hip3 from "../../assets/img/explore/audio-for-sale/hip3eth.svg";
+import "./Explore.css";
 
 class Explore extends Component {
   state = {
@@ -23,11 +32,30 @@ class Explore extends Component {
         <>
           <Header />
           <img
+            className="genre-select"
             src={all}
             alt="genre selection"
             onClick={this.handleGenreChange}
           />
-          <img src={hiphophero} alt="hiphop" />
+          <img
+            className="genre-hero"
+            src={allhero}
+            alt="general producer image"
+          />
+          <div className="sale-items">
+            <div className="sale-item all1">
+              <img src={all1} alt="eth price" />
+              <img src={buy} alt="" />
+            </div>
+            <div className="sale-item all2">
+              <img src={all2} alt="eth price" />
+              <img src={buy} alt="" />
+            </div>
+            <div className="sale-item all3">
+              <img src={all3} alt="eth price" />
+              <img src={buy} alt="" />
+            </div>
+          </div>
           <Footer />
         </>
       );
@@ -36,12 +64,26 @@ class Explore extends Component {
         <>
           <Header />
           <img
+            className="genre-select"
             src={hiphop}
             alt="genre selection"
             onClick={this.handleGenreChange}
           />
-          <img src={hiphop} alt="hiphop" />
-          <img src="allhero" alt="main image" />
+          <img className="genre-hero" src={hiphophero} alt="hiphop" />
+          <div className="sale-items">
+            <div className="sale-item hip1">
+              <img src={hip1} alt="eth price" />
+              <img src={buy} alt="" />
+            </div>
+            <div className="sale-item hip2">
+              <img src={hip2} alt="eth price" />
+              <img src={buy} alt="" />
+            </div>
+            <div className="sale-item hip3">
+              <img src={hip3} alt="eth price" />
+              <img src={buy} alt="" />
+            </div>
+          </div>
           <Footer />
         </>
       );

@@ -1,0 +1,44 @@
+.genre-select{
+    width: 92vw;
+    margin: 5vw 4vw;
+}
+.genre-hero{
+    width : 100vw;
+}
+.sale-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    margin: 5vw 4vw;
+}
+.sale-item{
+    display: flex;
+    width: 150px;
+    height: 350px;
+    flex-direction: row;
+
+}
+.hip1{
+    background-image: url("../../assets/img/explore/audio-for-sale/all1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hip2{
+    background-image: url(../../assets/img/explore/audio-for-sale/all2.svg);
+}
+.hip3{
+    background-image: url(../../assets/img/explore/audio-for-sale/all3.svg);
+}
+.all1{
+
+}
+.all2{
+
+}
+.all3{
+
+}
